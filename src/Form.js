@@ -41,8 +41,8 @@ class Form extends Component {
                     value={email}
                     onChange={this.handleChange}
                     placeholder="Your Email" />
-                <button className="form-button"
-                    onClick={this.submitForm} > Send </button>
+                <input type="button" value="Send" placeholder="Send" className="form-button"
+                    onClick={this.submitForm} />
                     
             </form>
         )
